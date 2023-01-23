@@ -1,0 +1,836 @@
+.flex {
+    display: flex;
+}
+
+header {
+    nav {
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .burger {
+            svg {
+                width: auto;
+                height: 40px;
+            }
+        }
+
+        .logo {
+            img {
+                width: auto;
+                height: 40px;
+            }
+
+        }
+    }
+
+    .header {
+        .main-text {
+            padding-bottom: 120px;
+            padding-top: 120px;
+            max-width: 700px;
+
+            h1 {
+                color: white;
+                font-size: 100px;
+                font-weight: 630;
+                line-height: 100px;
+                margin-bottom: 40px;
+            }
+
+            h4 {
+                color: white;
+                font-weight: 400;
+                margin-bottom: 50px;
+            }
+        }
+
+        background-image: url(./img/gr4.png);
+        background-repeat: no-repeat;
+        background-position: left;
+        background-size: cover;
+
+        a {
+            width: fit-content;
+            font-size: 20px;
+            display: block;
+            padding: 20px 70px;
+            border-radius: 50px;
+            border: 1px solid white;
+            color: white;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-family: inherit;
+            font-weight: 600;
+        }
+
+        .cards {
+            position: relative;
+
+            &::before {
+                content: " ";
+                background-image: url(./img/86.png);
+                background-size: cover;
+                background-repeat: no-repeat;
+                width: 700px;
+                height: 700px;
+                position: absolute;
+                top: -650px;
+                right: 0px;
+            }
+
+            .main-card {
+                z-index: 1000;
+                width: 400px;
+                height: auto;
+                padding: 60px 40px;
+                background-color: rgb(255, 255, 255);
+                box-shadow: 0 0 30px 5px rgba(14, 14, 14, 0.323);
+
+                h2 {
+
+                    font-size: 40px;
+                    font-family: inherit;
+                    font-weight: 700;
+
+                }
+
+                p {
+                    font-size: 20px;
+                    color: rgb(0, 0, 0);
+                    font-family: inherit;
+                    font-weight: 200;
+                }
+
+                svg {
+                    width: auto;
+                    height: 50px;
+                }
+
+            }
+
+        }
+    }
+}
+
+.galaxy {
+    padding: 120px 0px;
+
+    h2 {
+        font-family: inherit;
+        text-align: center;
+        font-weight: 700;
+        font-size: 50px;
+        margin-bottom: 80px;
+    }
+
+    img {
+
+        max-width: 300px;
+        width: 100%;
+        height: auto;
+
+    }
+
+    h5 {
+        font-family: inherit;
+        font-size: 30px;
+        font-weight: 700;
+
+    }
+
+    .row {
+        text-align: center;
+    }
+}
+
+.midle {
+
+    background-color: #7145e0;
+
+    .text {
+        padding: 120px 0px;
+        padding-left: 100px;
+
+        h1 {
+            margin-bottom: 50px;
+            color: white;
+            font-size: 80px;
+            font-weight: 600;
+            font-family: inherit;
+        }
+
+        h5 {
+            color: white;
+            font-weight: 400;
+            margin-bottom: 80px;
+            font-size: 35px;
+
+        }
+
+        a {
+            display: block;
+            border: 1px solid white;
+            border-radius: 60px;
+            padding: 20px 100px;
+            color: white;
+            text-decoration: none;
+            font-size: 30px;
+            font-family: inherit;
+            text-transform: uppercase;
+            width: fit-content;
+
+        }
+    }
+
+    .note9 {
+        width: 100%;
+        height: 800px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url(./img/10.png);
+    }
+}
+
+.connect {
+
+
+
+
+
+    background-image: url(./img/11.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+
+
+
+
+
+
+
+    .podklyuchaites {
+
+        h1 {
+            padding-top: 80px;
+            padding-bottom: 80px;
+            text-align: center;
+            font-weight: 700;
+            font-size: 50px;
+
+
+        }
+
+    }
+
+    .karty {
+        z-index: 1000;
+        justify-content: center;
+        display: flex;
+        text-align: center;
+
+
+        .card {
+            background: transparent;
+            width: 30rem;
+            height: auto;
+            border: 0;
+            padding: 20px 50px;
+
+            h2 {
+                margin: 20px;
+                margin-bottom: 30px;
+            }
+
+
+
+
+        }
+
+
+
+
+
+    }
+}
+
+.blacknote9 {
+    padding-right: 100px;
+
+    display: flex;
+    background-color: black;
+
+    .bn9 {
+        height: 500px;
+        background-image: url(./img/12.png);
+        width: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+
+    }
+
+    .galaxytext {
+
+        width: 100%;
+
+        text-align: right;
+
+        h1 {
+            padding-top: 60px;
+            font-family: inherit;
+            color: white;
+            font-size: 60px;
+
+            font-weight: 650;
+
+
+
+        }
+
+        h5 {
+            padding-top: 60px;
+            font-family: inherit;
+            color: white;
+            font-weight: 300;
+            padding-bottom: 60px;
+        }
+
+        a {
+            text-align: right;
+            display: block;
+            border: 1px solid white;
+            border-radius: 60px;
+            padding: 15px 60px;
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+            font-family: inherit;
+            width: fit-content;
+
+
+        }
+    }
+
+
+
+}
+
+.znak {
+    text-align: center;
+
+    h1 {
+        padding-top: 60px;
+
+        font-weight: 650;
+    }
+
+    h5 {
+        padding-top: 30px;
+        font-weight: 400;
+        margin-left: 150px;
+        margin-right: 150px;
+
+    }
+
+
+}
+
+.tablet {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #c04a87;
+
+    .planshet {
+        height: 700px;
+        background-image: url(./img/15.png);
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: cover;
+        width: 100%;
+
+
+    }
+
+    .tablettext {
+        padding-top: 60px;
+        width: 100%;
+        text-align: left;
+        padding-right: 150px;
+        padding-left: 150px;
+        padding-bottom: 60px;
+
+        h1 {
+
+
+            font-family: inherit;
+            color: white;
+            font-size: 60px;
+
+            font-weight: 650;
+
+
+
+        }
+
+        h5 {
+            padding-top: 60px;
+            font-family: inherit;
+            color: white;
+            font-weight: 300;
+            padding-bottom: 60px;
+        }
+    }
+
+    a {
+
+        display: block;
+        border: 1px solid white;
+        border-radius: 60px;
+        padding: 15px 60px;
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+        font-family: inherit;
+        width: fit-content;
+        margin-left: 0px;
+
+    }
+
+}
+
+@media only screen and (max-width:1700px) {
+    .tablet {
+        .planshet {
+            height: 500px;
+        }
+
+    }
+}
+
+@media only screen and (max-width:1460px) {
+    header {
+
+        .header {
+            .cards {
+                &::before {
+                    width: 600px;
+                    height: 600px;
+                    top: -550px;
+                }
+            }
+        }
+
+    }
+
+    .midle {
+        .note9 {
+            height: 500px;
+
+        }
+    }
+
+
+
+}
+
+@media only screen and (max-width:1400px) {
+    header {
+        .header {
+            .main-text {
+
+                max-width: 540px;
+
+                h1 {
+                    font-size: 80px;
+                }
+
+            }
+
+            .cards {
+                .main-card {
+                    width: 300px;
+
+                    h2 {
+                        font-size: 25px;
+
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:1230px) {
+
+
+    header {
+        .header {
+            .main-text {
+                max-width: 450px;
+
+                h1 {
+                    font-size: 50px;
+                    line-height: 60px;
+                }
+
+            }
+
+            .cards {
+                &::before {
+                    height: 500px;
+                    width: 500px;
+                    top: -450px;
+                }
+            }
+        }
+    }
+
+    .midle {
+        .text {
+            a {
+                padding: 10px 30px;
+                font-size: 20px;
+            }
+
+            h5 {
+                font-size: 25px;
+            }
+        }
+    }
+
+    .h1-obshiy {
+        font-size: 40px !important;
+    }
+
+    .znak {
+        img {
+            width: 400px;
+        }
+    }
+
+    .tablet {
+        .tablettext {
+            padding-top: 30px;
+            padding-right: 50px;
+            padding-left: 50px;
+            padding-bottom: 30px;
+        }
+
+        .planshet {
+            height: 400px;
+        }
+    }
+}
+
+@media only screen and (max-width:995px) {
+    .container {
+        max-width: 900px;
+    }
+
+    header {
+        .header {
+            .cards {
+                &::before {
+                    height: 401px;
+                    width: 400px;
+                    top: -390px;
+                    right: 100px;
+
+                }
+
+                .main-card {
+                    width: 250px;
+                    box-shadow: 0 0 20px 2px rgb(14 14 14 / 32%);
+                    padding: 25px 20px;
+                }
+            }
+
+        }
+    }
+
+}
+
+.blacknote9 {
+    padding-right: 35px;
+
+    .bn9 {
+        height: 300px;
+        width: 50%;
+
+    }
+
+    .galaxytext {
+        width: 50%;
+    }
+}
+
+.midle {
+    .text {
+        padding-left: 0px;
+        padding: 60px 0px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .tablet {
+        .planshet {
+            height: 250px;
+        }
+    }
+}
+
+@media only screen and (max-width: 800px) {
+
+    header {
+        .header {
+            .cards {
+                align-items: center;
+                flex-direction: column;
+
+                &::before {
+                    top: -330px;
+                    right: 0px;
+                }
+
+                .main-card {
+                    width: 100%;
+                    margin-bottom: 20px;
+                }
+
+            }
+
+            a {
+                font-size: 15px;
+                padding: 10px 30px;
+
+            }
+        }
+    }
+
+    .midle {
+        .note9 {
+            height: 250px;
+        }
+    }
+}
+
+@media only screen and (max-width:630px) {
+    .tablet {
+        a {
+            font-size: 15px;
+            padding: 10px 30px;
+        }
+
+        .tablettext {
+
+
+
+
+            h5 {
+                padding-top: 20px;
+            }
+        }
+    }
+
+    .znak {
+        h5 {
+            margin-left: 60px;
+            margin-right: 60px;
+        }
+    }
+
+    .connect {
+        .podklyuchaites {
+            h1 {
+                font-size: 30px;
+            }
+        }
+
+        .karty {
+            .card {
+                padding: 5px 10px;
+            }
+        }
+    }
+
+    .h1-obshiy {
+        font-size: 30px !important;
+
+    }
+}
+
+@media only screen and (max-width:580px) {
+    header {
+
+        nav {
+
+            .logo {
+                img {
+                    height: 20px;
+                }
+            }
+
+            .burger {
+                svg {
+                    height: 30px;
+                }
+            }
+        }
+
+        .header {
+
+            .main-text {
+                h1 {
+                    font-size: 30px;
+                    line-height: 30px;
+                }
+
+                h4 {
+                    font-size: 20px;
+                }
+            }
+
+            .cards {
+                &::before {
+                    top: -364px;
+                    right: 72px;
+                }
+
+
+            }
+
+            .cards {
+                margin-top: 200px;
+
+                .main-card {
+                    width: 50%;
+
+                    p {
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+
+    }
+
+    .tablet {
+        .tablettext {
+            h5 {
+                font-size: 16px;
+            }
+
+        }
+
+        .planshet {
+            height: 150px;
+        }
+    }
+
+    .h1-obshiy {
+        font-size: 22px !important;
+
+    }
+
+    .galaxy {
+        h2 {
+            font-size: 30px;
+        }
+
+        h5 {
+            font-size: 20px;
+        }
+
+    }
+
+    .midle {
+        .text {
+            a {
+                font-size: 12px;
+            }
+
+            h5 {
+                font-size: 16px;
+            }
+        }
+    }
+
+    .znak {
+        h5 {
+            font-size: 16px;
+        }
+
+        img {
+            width: 200px;
+        }
+    }
+
+    .blacknote9 {
+        .bn9 {
+            height: 207px;
+            width: 40%;
+
+
+        }
+
+        .galaxytext {
+            width: 60%;
+
+            h5 {
+                font-size: 16px;
+            }
+
+            a {
+                font-size: 12px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:412px) {
+    header {
+        .header {
+            .cards {
+                &::before {
+                    right: 0px;
+                }
+
+                .main-card {
+                    h2 {
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+
+    }
+
+    .connect {
+        .karty {
+            .card {
+                h2 {
+                    margin: 0;
+                    margin-bottom: 10px;
+                    font-size: 16px;
+                }
+
+                p {
+                    font-size: 12px;
+                }
+            }
+        }
+
+    }
+
+    .tablet {
+        a {
+            font-size: 10px;
+        }
+    }
+}
